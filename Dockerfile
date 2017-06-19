@@ -1,4 +1,4 @@
-FROM node:4.8.3
+FROM node:6.10.3
 MAINTAINER jaekwon.park <jaekwon.park@code-post.com>
 
 RUN npm install -g coffee-script yo generator-hubot  &&  \
