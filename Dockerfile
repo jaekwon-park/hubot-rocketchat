@@ -1,5 +1,5 @@
-FROM node:0.12.4
-MAINTAINER Rocket.Chat Team <buildmaster@rocket.chat>
+FROM node:4.8.3-alpine
+MAINTAINER jaekwon.park <jaekwon.park@code-post.com>
 
 RUN npm install -g coffee-script yo generator-hubot  &&  \
 	useradd hubot -m
